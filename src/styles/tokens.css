@@ -1,0 +1,60 @@
+/* Design tokens. Every color in the app comes from here, so the theme can switch. */
+:root {
+  color-scheme: light;
+  --bg: #f2f6f5;          /* page background */
+  --surface: #ffffff;     /* cards, sidebar, inputs */
+  --surface-2: #f8faf9;   /* subtle panels */
+  --ink-900: #16211f;     /* headings, main text */
+  --ink-700: #2c3d39;     /* labels */
+  --ink-500: #667773;     /* secondary text */
+  --line: #d9e0de;        /* input borders */
+  --line-soft: #e6eeec;   /* dividers */
+  --ring: rgba(23, 108, 99, 0.18);
+
+  --green-900: #176a60;   /* dark brand cards */
+  --green-700: #176c63;   /* brand text, links */
+  --btn: #176c63;         /* button fill */
+  --btn-hover: #135a53;
+  --on-brand: #ffffff;
+  --cream-50: #f6f7ee;
+  --white: #ffffff;
+
+  --tint: #e3f1ee;        /* active menu item, soft cards */
+  --tint-2: #cfe8e1;
+  --bar: #b9ddd5;
+  --bar-fill: #7fc2b5;
+  --bar-track: #dcebe7;
+
+  --amber-bg: #f7e9c4;  --amber-fg: #8a6414;
+  --red-bg: #f6d9d3;    --red-bg-hover: #f0c8bf;  --danger: #b3402f;
+
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius-sm: 8px; --radius-md: 10px; --radius-lg: 24px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0e1615;
+  --surface: #162120;
+  --surface-2: #1b2928;
+  --ink-900: #e6efed;
+  --ink-700: #c2d0cd;
+  --ink-500: #8a9d99;
+  --line: #2c3c3a;
+  --line-soft: #243230;
+  --ring: rgba(79, 195, 174, 0.28);
+
+  --green-900: #14544c;
+  --green-700: #4fc3ae;
+  --btn: #1d8f80;
+  --btn-hover: #24a392;
+
+  --tint: #1c3733;
+  --tint-2: #26463f;
+  --bar: #2d5b53;
+  --bar-fill: #3fae9b;
+  --bar-track: #25403c;
+
+  --amber-bg: #3a3017;  --amber-fg: #e9c56b;
+  --red-bg: #3d221e;    --red-bg-hover: #4d2b26;  --danger: #f0897c;
+}
